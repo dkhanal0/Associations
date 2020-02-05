@@ -17,7 +17,7 @@ public ArrayList<OrderItem>items;
 public Order(Account a1){
     //this.AccountNum = AccountNum;
     this.a = a1;
-    this.items= items;
+    this.items= new ArrayList<OrderItem>();
 }
 
   // getAccount() - Returns a reference to the Account object associated with this order
