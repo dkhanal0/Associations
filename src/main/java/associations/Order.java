@@ -41,6 +41,10 @@ public void addItem(OrderItem item){
 
   // getTotal() - Returns the price of all items purchased
 public double getTotal(){
-    return (orderItem.length*price);
+    double sum = 0;
+    for (OrderItem i: items) {
+        sum += i.getPrice();
+    }
+    return sum;
 }
 }
