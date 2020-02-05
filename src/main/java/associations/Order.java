@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Order {
-    private String AccountNum;
+    //private String AccountNum;
     private String customerName;
     private String[] orderItem;
     private double price;
@@ -15,7 +15,8 @@ public ArrayList<OrderItem>items;
 
   //  A constructor that initializes the account number and an empty collection of items
 public Order(Account a1){
-    this.AccountNum = AccountNum;
+    //this.AccountNum = AccountNum;
+    this.a = a1;
     this.items= items;
 }
 

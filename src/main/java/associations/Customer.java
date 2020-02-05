@@ -43,8 +43,7 @@ public void setAccount(Account a){
 }
 
   //    getAccount() - Returns a reference to the Account object associated with this customer
-public Customer getAccount(){
-    Customer c1 = new Customer(lName,fName,zipCode,address);
-return c1;
+public Account getAccount(){
+    return this.a;
 }
 }
